@@ -32,7 +32,7 @@ skinInput.addEventListener('change', (e) => {
       reader.onload = function() {
          
          let canvas = document.createElement('canvas');
-             canvas.classList.add('.skin-canvas');
+             canvas.classList.add('skin-canvas');
              container = document.querySelector('.skin-container');
              canvas = container.appendChild(canvas);
 
